@@ -18,7 +18,7 @@ TodoApp - A extremely simple task manager
 </p>
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/62355596/84555948-ac875b80-aced-11ea-9868-ebfeed915804.png" alt="License MIT" >
+    <img src="https://user-images.githubusercontent.com/62355596/84556065-64b50400-acee-11ea-8740-be52ab341d0e.png" alt="License MIT" >
     </p>
 
 
