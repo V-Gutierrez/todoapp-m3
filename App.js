@@ -68,7 +68,8 @@ const App = () => {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: 'black',
-        minHeight: 800,
+        minHeight: 1200,
+        height: 1000,
     },
     doText: {
         color: 'black',
