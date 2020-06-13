@@ -37,48 +37,40 @@ const App = () => {
 
     return (
         <>
-            <ImageBackground
-                style={{
-                    width: null,
-                    height: null,
-                }}
-                source={{
-                    uri: 'https://source.unsplash.com/random',
-                }}
+            <TouchableWithoutFeedback
+                style={styles.background}
+                onPress={() => Keyboard.dismiss()}
             >
-                <TouchableWithoutFeedback
-                    style={styles.background}
-                    onPress={() => Keyboard.dismiss()}
-                >
-                    <View style={styles.container}>
-                        <Header />
-                        <View style={styles.content}>
-                            <AddTodo handleNewTodo={handleNewTodo} />
-                            <View style={styles.list}>
-                                <FlatList
-                                    keyExtractor={(item) => item.id}
-                                    data={todoList}
-                                    extraData={todoList}
-                                    renderItem={({ item }) => (
-                                        <TodoItem
-                                            deleteTodo={PressHandler}
-                                            item={item}
-                                        />
-                                    )}
-                                />
-                            </View>
+                <View style={styles.container}>
+                    <Header />
+                    <View style={styles.content}>
+                        <AddTodo handleNewTodo={handleNewTodo} />
+                        <View style={styles.list}>
+                            <FlatList
+                                keyExtractor={(item) => item.id}
+                                data={todoList}
+                                extraData={todoList}
+                                renderItem={({ item }) => (
+                                    <TodoItem
+                                        deleteTodo={PressHandler}
+                                        item={item}
+                                    />
+                                )}
+                            />
                         </View>
                     </View>
-                </TouchableWithoutFeedback>
-            </ImageBackground>
+                </View>
+            </TouchableWithoutFeedback>
         </>
     );
 };
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#ffffff70',
+        backgroundColor: 'black',
         minHeight: 800,
+        height: 1000,
+        maxHeight: 1200,
     },
     doText: {
         color: 'black',
@@ -86,11 +78,10 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     content: {
-        flex: 1,
         padding: 40,
     },
     list: {
-        flex: 0.9,
+        flex: 0.95,
     },
 });
 

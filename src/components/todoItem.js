@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
         borderWidth: 2.5,
         borderStyle: 'dashed',
         borderRadius: 10,
-        backgroundColor: 'white',
+        backgroundColor: 'coral',
     },
 });

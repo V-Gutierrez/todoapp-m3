@@ -13,7 +13,7 @@ export default function Header() {
 const styles = StyleSheet.create({
     header: {
         height: 60,
-        backgroundColor: 'white',
+        backgroundColor: 'coral',
         alignSelf: 'stretch',
         justifyContent: 'center',
     },
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     title: {
         textAlign: 'center',
         fontSize: 20,
-        color: 'black',
+        color: 'white',
         fontWeight: 'bold',
     },
 });
