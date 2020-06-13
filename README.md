@@ -17,9 +17,9 @@ TodoApp - A extremely simple task manager
     </a>
 </p>
 
-<a href="https://opensource.org/licenses/MIT">
-    <img src="https://user-images.githubusercontent.com/62355596/84555428-eefb6900-acea-11ea-85d9-7befca373678.png" alt="License MIT" width="200" height="712">
-    </a>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/62355596/84555428-eefb6900-acea-11ea-85d9-7befca373678.png" alt="License MIT" >
+    </p>
 
 
 
