@@ -9,7 +9,9 @@ export default function TodoItem({ item, deleteTodo }) {
                 onPress={() => deleteTodo(item.id)}
                 style={styles.item}
             >
-                <Text>{item.text}</Text>
+                <Text style={{ color: 'white', fontWeight: 'bold' }}>
+                    {item.text}
+                </Text>
             </TouchableOpacity>
         </View>
     );
@@ -19,7 +21,7 @@ const styles = StyleSheet.create({
     item: {
         padding: 16,
         marginTop: 16,
-        borderColor: '#bbb',
+        borderColor: 'white',
         borderWidth: 2.5,
         borderStyle: 'dashed',
         borderRadius: 10,

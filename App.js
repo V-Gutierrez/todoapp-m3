@@ -69,8 +69,6 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: 'black',
         minHeight: 800,
-        height: 1000,
-        maxHeight: 1200,
     },
     doText: {
         color: 'black',
@@ -78,10 +76,11 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     content: {
+        flex: 1,
         padding: 40,
     },
     list: {
-        flex: 0.95,
+        flex: 0.9,
     },
 });
 
